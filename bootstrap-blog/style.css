@@ -1,0 +1,31 @@
+:root{
+    --normalfont:font-family: 'Montserrat', sans-serif;
+    --headingfont:font-family: 'Lato', sans-serif;
+    --highlightfont:font-family:'Fraunces', serif;
+}
+.hf/*heading font*/{
+font-family: var(--headingfont);
+font-size:7vmin;
+font-weight:bold;
+}
+
+.hfd/*heading down*/{
+    font-family:var(--highlightfont) ;
+    font-weight: 500;
+}
+
+p{
+    font-family: var(--normalfont);
+}
+
+.blogtitle{
+    height:200px;
+    border-radius:0;
+}
+
+@media (max-width: 768px)
+{
+    .hideit{
+        display: none;
+    }
+}
